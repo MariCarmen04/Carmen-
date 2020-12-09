@@ -1,19 +1,19 @@
 # Carmen-
 Planetas 
-·include˂stdio.h˃
+$ include˂stdio.h˃
 ·include˂conio.h˃
 ·include˂math.h˃
 ·include˂string.h˃
 
-Int planeta, Temp
-char Nombre;
-float Radio=0,MasaP=0,v2,MasaE1=0,MasaE2=0,MasaE3=0,Vrms=0;
-float  G=6.67e-11;
-float k=1.349e-23;
-float Hidrogeno=6.67e-27,Oxigeno=2.65e-26,Helio=6.64e-27,Nitrógeno=2.32e-26,Carbono=1.99e-26,Azufre=5.32e-26;
+$ Int planeta, Temp
+$ char Nombre;
+$ float Radio=0,MasaP=0,v2,MasaE1=0,MasaE2=0,MasaE3=0,Vrms=0;
+$ float  G=6.67e-11;
+$ float k=1.349e-23;
+$ float Hidrogeno=6.67e-27,Oxigeno=2.65e-26,Helio=6.64e-27,Nitrógeno=2.32e-26,Carbono=1.99e-26,Azufre=5.32e-26;
 main()
 {
-Printf(“Elije un planeta  \n1-Sol\n2-Mercurio\n3-Venus\n4-Tierra\n5-Luna\n6-Marte\n7-Jupiter\nscanf(“%d”,&planeta);
+$ Print (“Elije un planeta  \n1-Sol\n2-Mercurio\n3-Venus\n4-Tierra\n5-Luna\n6-Marte\n7-Jupiter\n8-Saturno\n9-Titan\n10-Urano\n11-Neptuno\n12-Pluton\nscanf(“%d”,&planeta);
 //Velocidad de Escape 
 //v2=sqrt((2*G*masa/Radio);
 
@@ -22,8 +22,8 @@ Printf(“Elije un planeta  \n1-Sol\n2-Mercurio\n3-Venus\n4-Tierra\n5-Luna\n6-Ma
 Switch(planeta)
 {
 
-Case 1
-Printf(“\ Sol\n”);
+# Case 1
+$ Print (“\ Sol\n”);
 Temp=5780;
 MasaP=1.989e+30;
 Radio=7.0e+8;
@@ -178,7 +178,7 @@ printf(“Helio:\n”);
 printf(“La velocidad Molecular es de: %.4f\n”,Vrms2);
 break;
  
-case11:
+case 11:
 Printf(“\n`````Neptuno``````\n”);
 Temp=45;
 MasaP=1.024e+26;
